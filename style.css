@@ -1,0 +1,15 @@
+:root {
+  --sb-bg: #1992d4;
+  --sb-tt: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+aside header svg {
+  height: 20px;
+  width: 20px;
+}
