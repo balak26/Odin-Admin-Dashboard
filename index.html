@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Admin Dashboard</title>
   </head>
@@ -12,7 +16,225 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
         </svg>
+        <h1>Dashboard</h1>
       </header>
+      <div class="nav-links">
+        <a href="#">
+          <span><i class="fa-solid fa-house"></i></span>
+          Home</a
+        >
+        <a href="#">
+          <span><i class="fa-solid fa-address-card"></i></span>
+          Profile</a
+        >
+        <a href="#">
+          <span><i class="fa-regular fa-message"></i></span>
+          Messages</a
+        >
+        <a href="#">
+          <span><i class="fa-solid fa-clock"></i></span>
+          History</a
+        >
+        <a href="#">
+          <span><i class="fa-regular fa-file"></i></span> Tasks</a
+        >
+        <a href="#">
+          <span><i class="fa-solid fa-user-group"></i></span>Communities</a
+        >
+      </div>
+
+      <div class="account">
+        <a href="#">
+          <span><i class="fa-solid fa-gear"></i></span> Settings</a
+        >
+        <a href="#">
+          <span><i class="fa-regular fa-circle-question"></i></span> Support</a
+        >
+        <a href="#">
+          <span><i class="fa-solid fa-shield"></i></span> Privacy</a
+        >
+      </div>
     </aside>
+
+    <main>
+      <div class="heading">
+        <div class="upper">
+          <div class="search">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="text" />
+          </div>
+          <div class="profile">
+            <span><i class="fa-regular fa-bell"></i></span>
+            <div class="pro-img">
+              <img src="./img/pngwing.com.png" alt="" />
+            </div>
+            <h3>Morgan Oakley</h3>
+          </div>
+        </div>
+        <div class="lower">
+          <div class="greeting">
+            <div class="img">
+              <img src="./img/pngwing.com.png" alt="" />
+            </div>
+            <div class="text">
+              <p>Hi there,</p>
+              <h3>Morgan Oakley</h3>
+            </div>
+          </div>
+          <div class="actions">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div id="projects">
+          <h2>Your Projects</h2>
+          <div class="items">
+            <div class="item">
+              <h3>Super Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, quia sed! Eveniet Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Sapiente, totam!
+              </p>
+              <div class="icons">
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-eye"></i></span>
+                <span><i class="fa-solid fa-code-fork"></i></span>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Less Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, quia sed! Eveniet Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Sapiente, totam!
+              </p>
+              <div class="icons">
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-eye"></i></span>
+                <span><i class="fa-solid fa-code-fork"></i></span>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Impossible App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, quia sed! Eveniet Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Sapiente, totam!
+              </p>
+              <div class="icons">
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-eye"></i></span>
+                <span><i class="fa-solid fa-code-fork"></i></span>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Easy peasy App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, quia sed! Eveniet Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Sapiente, totam!
+              </p>
+              <div class="icons">
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-eye"></i></span>
+                <span><i class="fa-solid fa-code-fork"></i></span>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Ad Blocker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, quia sed! Eveniet Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Sapiente, totam!
+              </p>
+              <div class="icons">
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-eye"></i></span>
+                <span><i class="fa-solid fa-code-fork"></i></span>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Money Maker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, quia sed! Eveniet Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Sapiente, totam!
+              </p>
+              <div class="icons">
+                <span><i class="fa-regular fa-star"></i></span>
+                <span><i class="fa-regular fa-eye"></i></span>
+                <span><i class="fa-solid fa-code-fork"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="announcements">
+          <h2>Announcements</h2>
+          <div class="items">
+            <div class="item">
+              <h3>Site Maintenance</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus non est, nisi illum qui optio?
+              </p>
+              <hr />
+            </div>
+            <div class="item">
+              <h3>Community Share Day</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus non est, nisi illum qui optio?
+              </p>
+              <hr />
+            </div>
+            <div class="item">
+              <h3>Updated Privacy Policy</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus non est, nisi illum qui optio?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="trending">
+          <h2>Trending</h2>
+          <div class="trends">
+            <div class="trend">
+              <img src="./img/pngwing.com.png" alt="" />
+              <div class="name">
+                <p>@tengen</p>
+                <h3>World Peace Builder</h3>
+              </div>
+            </div>
+            <div class="trend">
+              <img src="./img/pngwing.com.png" alt="" />
+              <div class="name">
+                <p>@tengen</p>
+                <h3>World Peace Builder</h3>
+              </div>
+            </div>
+            <div class="trend">
+              <img src="./img/pngwing.com.png" alt="" />
+              <div class="name">
+                <p>@tengen</p>
+                <h3>World Peace Builder</h3>
+              </div>
+            </div>
+            <div class="trend">
+              <img src="./img/pngwing.com.png" alt="" />
+              <div class="name">
+                <p>@tengen</p>
+                <h3>World Peace Builder</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
